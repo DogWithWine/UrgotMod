@@ -1,0 +1,329 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.33f1 (ee5a2aa03ab2) revision 15620650'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'de' Physical Memory: 16307 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/RoR2 Modding/Urgot-master/UrgotUnityProject
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61681
+Successfully changed project path to: C:/RoR2 Modding/Urgot-master/UrgotUnityProject
+C:/RoR2 Modding/Urgot-master/UrgotUnityProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29084] Host "[IP] 192.168.178.29 [Port] 0 [Flags] 2 [Guid] 3078885233 [EditorId] 3078885233 [Version] 1048832 [Id] WindowsEditor(7,Pauls-PC-mehr-C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29084] Host "[IP] 192.168.178.29 [Port] 0 [Flags] 2 [Guid] 3078885233 [EditorId] 3078885233 [Version] 1048832 [Id] WindowsEditor(7,Pauls-PC-mehr-C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 24.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/RoR2 Modding/Urgot-master/UrgotUnityProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006774 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 20.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Domain Reload Profiling:
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (515ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (21ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000749 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Domain Reload Profiling:
+	ReloadAssembly (867ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (569ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 705 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (46.3 KB). Loaded Objects now: 1179.
+Memory consumption went from 44.2 MB to 44.1 MB.
+Total: 4.068500 ms (FindLiveObjects: 0.165900 ms CreateObjectMapping: 0.030400 ms MarkObjects: 3.634700 ms  DeleteObjects: 0.235000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20411.838062 seconds.
+  path: Assets/Urgot/urgotDisplay.prefab
+  artifactKey: Guid(4a5348ac04bf4c343af416b53480336b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/urgotDisplay.prefab using Guid(4a5348ac04bf4c343af416b53480336b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d4efbbc6f932674311d59fafa1cc43') in 0.251510 seconds 
+Number of asset objects unloaded after import = 571
+========================================================================
+Received Import Request.
+  Time since last request: 33.129295 seconds.
+  path: Assets/HenryAssets/HenryBundle/HenryDisplay.prefab
+  artifactKey: Guid(9552880169ac54248bdf012a5175ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/HenryAssets/HenryBundle/HenryDisplay.prefab using Guid(9552880169ac54248bdf012a5175ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea31257eeb93ee3657eecc9a4c2569d6') in 0.075515 seconds 
+Number of asset objects unloaded after import = 320
+========================================================================
+Received Import Request.
+  Time since last request: 217.167713 seconds.
+  path: Assets/Urgot/urgotDisplay.prefab
+  artifactKey: Guid(4a5348ac04bf4c343af416b53480336b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/urgotDisplay.prefab using Guid(4a5348ac04bf4c343af416b53480336b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e7ce2568dfee33ce9dc2a90fb45879') in 0.068771 seconds 
+Number of asset objects unloaded after import = 571
+========================================================================
+Received Import Request.
+  Time since last request: 273.745102 seconds.
+  path: Assets/HenryAssets/HenryBundle/Icons/texBazookaIcon.png
+  artifactKey: Guid(cbd0389065d180b4393f6540570bc982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/HenryAssets/HenryBundle/Icons/texBazookaIcon.png using Guid(cbd0389065d180b4393f6540570bc982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1041042f567b6ee0735a047c59d5b002') in 0.128685 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HenryAssets/HenryBundle/Icons/texSpecialIcon.png
+  artifactKey: Guid(44a1d09fd35f1384e819b98e0f18058e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/HenryAssets/HenryBundle/Icons/texSpecialIcon.png using Guid(44a1d09fd35f1384e819b98e0f18058e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e761944f549f33f47eb8cfdf7ee86a9e') in 0.061421 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HenryAssets/HenryBundle/Icons/texBoxingGlovesIcon.png
+  artifactKey: Guid(1d742e294766fd645a831674eb9c2f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/HenryAssets/HenryBundle/Icons/texBoxingGlovesIcon.png using Guid(1d742e294766fd645a831674eb9c2f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe8277f6fcd34f7935e476799389ed7') in 0.048088 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/HenryAssets/HenryBundle/Icons/texHenryIcon.png
+  artifactKey: Guid(33c89ac909113894280a0cfd14c99f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/HenryAssets/HenryBundle/Icons/texHenryIcon.png using Guid(33c89ac909113894280a0cfd14c99f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134e23db9181e432f03c13666dccd457') in 0.045946 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HenryAssets/HenryBundle/Icons/texPassiveIcon.png
+  artifactKey: Guid(977438518be9ff545a06824ddf881e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/HenryAssets/HenryBundle/Icons/texPassiveIcon.png using Guid(977438518be9ff545a06824ddf881e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5585b2d9c6af77ea64cd6098388d2c8') in 0.049725 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HenryAssets/HenryBundle/Icons/texPistolIcon.png
+  artifactKey: Guid(b317507c59d9d6847bf537e18d94cb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/HenryAssets/HenryBundle/Icons/texPistolIcon.png using Guid(b317507c59d9d6847bf537e18d94cb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543106e404c9af3da0b5003017429fe3') in 0.044271 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HenryAssets/HenryBundle/Icons/texShotgunIcon.png
+  artifactKey: Guid(26d60250e708d9a4d89bbbf4b857f45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/HenryAssets/HenryBundle/Icons/texShotgunIcon.png using Guid(26d60250e708d9a4d89bbbf4b857f45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69cbcd9372e53021b0f990a7eace8e9') in 0.041479 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HenryAssets/HenryBundle/Icons/texHenryAchievement.png
+  artifactKey: Guid(a12611e353c29ec458cf2e426e5cb05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/HenryAssets/HenryBundle/Icons/texHenryAchievement.png using Guid(a12611e353c29ec458cf2e426e5cb05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447bcb1c74e7642366f015bce542e9f6') in 0.038105 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HenryAssets/HenryBundle/Icons/texSecondaryIcon.png
+  artifactKey: Guid(e1b58742d5489f9409faeafa1fe57f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/HenryAssets/HenryBundle/Icons/texSecondaryIcon.png using Guid(e1b58742d5489f9409faeafa1fe57f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e0717fe6a02172c4405a5e77ffd1b2') in 0.038729 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HenryAssets/HenryBundle/Icons/texVergilAchievement.png
+  artifactKey: Guid(d61effa4e29106f4e96b07fd37365551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/HenryAssets/HenryBundle/Icons/texVergilAchievement.png using Guid(d61effa4e29106f4e96b07fd37365551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8db57feb6b3855a8a88105f46fdb4d2') in 0.033712 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/HenryAssets/HenryBundle/Icons/texMainSkin.png
+  artifactKey: Guid(e0bd4029a2d0049499dc8c6d68c3716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/HenryAssets/HenryBundle/Icons/texMainSkin.png using Guid(e0bd4029a2d0049499dc8c6d68c3716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba456f3392bae72e1fb8cb6cb7b528fd') in 0.033258 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4335.983730 seconds.
+  path: Assets/Urgot/icons2d/urgot_passive.png
+  artifactKey: Guid(69cc2c2a25aea764c9686dc55e3f110d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/icons2d/urgot_passive.png using Guid(69cc2c2a25aea764c9686dc55e3f110d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704c6590deb0a5c4341763c1f53eea84') in 0.084815 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Urgot/icons2d/urgot_rrecast_grey.png
+  artifactKey: Guid(03b9a118646002449a5ffb1d08bd8e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/icons2d/urgot_rrecast_grey.png using Guid(03b9a118646002449a5ffb1d08bd8e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef190b4a85657b4a2977960e961456b8') in 0.041092 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Urgot/icons2d/urgot_rrecast.png
+  artifactKey: Guid(524d97d7c0961d945b71e34751fb84d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/icons2d/urgot_rrecast.png using Guid(524d97d7c0961d945b71e34751fb84d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1473954ed2e46bedb54301d310b6efa') in 0.040851 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Urgot/icons2d/urgot_w.png
+  artifactKey: Guid(be613ce9e098c2440a92c5d3eea6d770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/icons2d/urgot_w.png using Guid(be613ce9e098c2440a92c5d3eea6d770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe3d1073c29ed71a26e3a686b5fb33b') in 0.043594 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Urgot/icons2d/urgot_wcancel.png
+  artifactKey: Guid(47015d75f3eaedb469d1ba7032eca33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/icons2d/urgot_wcancel.png using Guid(47015d75f3eaedb469d1ba7032eca33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8898dcbd4e9b332deb64f5e38cb5e7') in 0.038129 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Urgot/icons2d/urgot_r.png
+  artifactKey: Guid(4f3c3af3d6dad134d8f08e4efdf63561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/icons2d/urgot_r.png using Guid(4f3c3af3d6dad134d8f08e4efdf63561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948bbbc54810a3e0eb237b12bb520d9c') in 0.033092 seconds 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

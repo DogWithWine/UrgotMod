@@ -1,0 +1,545 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.33f1 (ee5a2aa03ab2) revision 15620650'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'de' Physical Memory: 16307 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/RoR2 Modding/Urgot-master/UrgotUnityProject
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+61681
+Successfully changed project path to: C:/RoR2 Modding/Urgot-master/UrgotUnityProject
+C:/RoR2 Modding/Urgot-master/UrgotUnityProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30672] Host "[IP] 192.168.178.29 [Port] 0 [Flags] 2 [Guid] 3914977482 [EditorId] 3914977482 [Version] 1048832 [Id] WindowsEditor(7,Pauls-PC-mehr-C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30672] Host "[IP] 192.168.178.29 [Port] 0 [Flags] 2 [Guid] 3914977482 [EditorId] 3914977482 [Version] 1048832 [Id] WindowsEditor(7,Pauls-PC-mehr-C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 36.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/RoR2 Modding/Urgot-master/UrgotUnityProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.159664 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 20.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7959ms)
+		BeginReloadAssembly (6332ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1195ms)
+			LoadAssemblies (6328ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (815ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (20ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000785 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.014 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3015ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (2711ms)
+			LoadAssemblies (2201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 705 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (46.3 KB). Loaded Objects now: 1179.
+Memory consumption went from 44.1 MB to 44.0 MB.
+Total: 2.769700 ms (FindLiveObjects: 0.109000 ms CreateObjectMapping: 0.019600 ms MarkObjects: 2.568600 ms  DeleteObjects: 0.071300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25335.079741 seconds.
+  path: Assets/Urgot/icons2d/urgot_passive.png
+  artifactKey: Guid(69cc2c2a25aea764c9686dc55e3f110d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/icons2d/urgot_passive.png using Guid(69cc2c2a25aea764c9686dc55e3f110d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b801fd40f0f52d8a8e948d1959b5028') in 0.203433 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Urgot/icons2d/urgot_wcancel.png
+  artifactKey: Guid(47015d75f3eaedb469d1ba7032eca33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/icons2d/urgot_wcancel.png using Guid(47015d75f3eaedb469d1ba7032eca33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab19c65f8bb8610ce76d7bc87f0db0dc') in 0.106696 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 70.667798 seconds.
+  path: Assets/Urgot/particles/urgot_base_r_shockdistortion.dds
+  artifactKey: Guid(4c977fcfee934ad4babf24bd5f48c323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_r_shockdistortion.dds using Guid(4c977fcfee934ad4babf24bd5f48c323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866d555a63ed26f6427de34b1da1ca6b') in 0.061695 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Urgot/particles/urgot_base_w_bullets.dds
+  artifactKey: Guid(adc8e8843c0e49d45b8837772189cda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_w_bullets.dds using Guid(adc8e8843c0e49d45b8837772189cda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f32c001b5fdeb9c7d460655f3e2046f') in 0.044310 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Urgot/particles/urgot_base_z_smoketrail.dds
+  artifactKey: Guid(e46e7ba932fc37148ad8fdeadaab48d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_z_smoketrail.dds using Guid(e46e7ba932fc37148ad8fdeadaab48d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a92f3cbf611ee086ebc72ee80fb06ac') in 0.050404 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Urgot/particles/urgot_base_z_shockblasts.dds
+  artifactKey: Guid(90acaf1a88208ef41bae7f3f8cd5ec47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_z_shockblasts.dds using Guid(90acaf1a88208ef41bae7f3f8cd5ec47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93cdb32e6ff00b9458705b45a25d5e0') in 0.044486 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Urgot/particles/urgot_base_z_smokepoofs.dds
+  artifactKey: Guid(22ef36240afc9374d8e10b568a540ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_z_smokepoofs.dds using Guid(22ef36240afc9374d8e10b568a540ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce80a05f7703367cdce3ed41132add30') in 0.037350 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Urgot/particles/urgot_base_z_solid.dds
+  artifactKey: Guid(558d7efa452313d49b30cf80ab577920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_z_solid.dds using Guid(558d7efa452313d49b30cf80ab577920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125db6af2e1124e87dc4d197aed752de') in 0.031235 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Urgot/particles/urgot_base_z_shockcircle.dds
+  artifactKey: Guid(1127d992d760c9f408dcd55ec8cbcddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_z_shockcircle.dds using Guid(1127d992d760c9f408dcd55ec8cbcddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68dfb6a6e59a8c5bcd0f090904f36b6') in 0.037769 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Urgot/particles/urgot_base_r_stardustdense.dds
+  artifactKey: Guid(8e0b23188042b8545bd97c5e0271330d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_r_stardustdense.dds using Guid(8e0b23188042b8545bd97c5e0271330d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7638cc15bece3c5c668fda301c4ae7a') in 0.041273 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Urgot/particles/urgot_base_w_indicatorwedge.dds
+  artifactKey: Guid(835d84a98dd3a0f4585bc1c484c8b84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_w_indicatorwedge.dds using Guid(835d84a98dd3a0f4585bc1c484c8b84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c1891fcfbbd4a6afff34fb2d51bd8c') in 0.041524 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Urgot/particles/urgot_base_w_aura_self.dds
+  artifactKey: Guid(8de35ec0f47fc9e4ca093a727d5c2d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_w_aura_self.dds using Guid(8de35ec0f47fc9e4ca093a727d5c2d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c1f2e3b9ca8c89e984fc2f56f9794a') in 0.036072 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Urgot/particles/urgot_base_z_softcircle.dds
+  artifactKey: Guid(f3c28b66a688b1241ab839797d38a4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_z_softcircle.dds using Guid(f3c28b66a688b1241ab839797d38a4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4febdda43750c9f97bd53a9e3789b2') in 0.032693 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Urgot/particles/urgot_base_z_explosionfiregreen.dds
+  artifactKey: Guid(07eb6a244fe0c5c40bcb710e76457aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_z_explosionfiregreen.dds using Guid(07eb6a244fe0c5c40bcb710e76457aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c2a17bf35209d8a5dbf7c10220b77f') in 0.042653 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Urgot/particles/urgot_base_w_distort-soft-shockwave.dds
+  artifactKey: Guid(454fad7ac3502334c9e758ed2104e34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_w_distort-soft-shockwave.dds using Guid(454fad7ac3502334c9e758ed2104e34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d3c99e9fccf22d198a0af875144f1b') in 0.038418 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Urgot/particles/urgot_base_z_flare.dds
+  artifactKey: Guid(14e7bcfdbf1d3474dbbaf8e96e45406f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_z_flare.dds using Guid(14e7bcfdbf1d3474dbbaf8e96e45406f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51921faf49781a4b788442d28b78595') in 0.040050 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Urgot/particles/urgot_base_z_blastshapes.dds
+  artifactKey: Guid(49a1ee7b5c49c264287ac95652c48271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_z_blastshapes.dds using Guid(49a1ee7b5c49c264287ac95652c48271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b2508152c7ee209ae3fac966efb5e1') in 0.051363 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Urgot/particles/urgot_base_z_smokeclouds.dds
+  artifactKey: Guid(8c74ebfeb6001124280b27e8762d6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_z_smokeclouds.dds using Guid(8c74ebfeb6001124280b27e8762d6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3174498e4b76001d66801c6b775e9dc') in 0.040904 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Urgot/particles/urgot_base_z_softclouds.dds
+  artifactKey: Guid(7a1c617a75ec69a4d8cf6c4e5822e030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_z_softclouds.dds using Guid(7a1c617a75ec69a4d8cf6c4e5822e030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8ed7c6b8a117b7869b44dbd4201320') in 0.042032 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Urgot/particles/urgot_base_r_stardust_mult.dds
+  artifactKey: Guid(214078e60df229c438ab1ae61a20f489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_r_stardust_mult.dds using Guid(214078e60df229c438ab1ae61a20f489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56e541749b6bdbaea901f8ec3240c08') in 0.043953 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Urgot/particles/urgot_base_r_timer_ring.dds
+  artifactKey: Guid(6444b3e7d654b26458dc7be8a6ec8d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_r_timer_ring.dds using Guid(6444b3e7d654b26458dc7be8a6ec8d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46692f4a11074b90144af8619e3f7b6') in 0.038963 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Urgot/particles/urgot_base_z_piercespark.dds
+  artifactKey: Guid(dc67afd88b190724fa61a702cab65e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_z_piercespark.dds using Guid(dc67afd88b190724fa61a702cab65e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc90a05a67c79c3fd5458249d6c3b8ca') in 0.034328 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Urgot/particles/urgot_base_w_shieldback.dds
+  artifactKey: Guid(539951663e552fd4588f6d2ea10964e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_base_w_shieldback.dds using Guid(539951663e552fd4588f6d2ea10964e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a2aeb4707a641a555029334a9c3e97') in 0.034933 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Urgot/particles/urgot_q_ground.dds
+  artifactKey: Guid(bec40143e88944044a4acb9ef09af68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/particles/urgot_q_ground.dds using Guid(bec40143e88944044a4acb9ef09af68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffa331318597c3c8dde78037fa1ae41') in 0.035574 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (4.4 KB). Loaded Objects now: 1191.
+Memory consumption went from 34.0 MB to 34.0 MB.
+Total: 9.873900 ms (FindLiveObjects: 0.262900 ms CreateObjectMapping: 0.042100 ms MarkObjects: 9.531200 ms  DeleteObjects: 0.035200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (4.4 KB). Loaded Objects now: 1191.
+Memory consumption went from 34.0 MB to 34.0 MB.
+Total: 5.085700 ms (FindLiveObjects: 0.247800 ms CreateObjectMapping: 0.041200 ms MarkObjects: 4.765300 ms  DeleteObjects: 0.029000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (4.4 KB). Loaded Objects now: 1191.
+Memory consumption went from 34.0 MB to 34.0 MB.
+Total: 5.353600 ms (FindLiveObjects: 0.219300 ms CreateObjectMapping: 0.036400 ms MarkObjects: 5.047100 ms  DeleteObjects: 0.049000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (4.4 KB). Loaded Objects now: 1191.
+Memory consumption went from 34.0 MB to 34.0 MB.
+Total: 5.595300 ms (FindLiveObjects: 0.206900 ms CreateObjectMapping: 0.030100 ms MarkObjects: 5.328600 ms  DeleteObjects: 0.028000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (4.4 KB). Loaded Objects now: 1191.
+Memory consumption went from 34.0 MB to 34.0 MB.
+Total: 5.545700 ms (FindLiveObjects: 0.250600 ms CreateObjectMapping: 0.038900 ms MarkObjects: 5.225600 ms  DeleteObjects: 0.028300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (4.4 KB). Loaded Objects now: 1191.
+Memory consumption went from 34.0 MB to 34.0 MB.
+Total: 6.047900 ms (FindLiveObjects: 0.190200 ms CreateObjectMapping: 0.033300 ms MarkObjects: 5.784400 ms  DeleteObjects: 0.038200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51.599097 seconds.
+  path: Assets/Urgot/urgot_square.png
+  artifactKey: Guid(a58498b340528bb42ad8282f32798e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/urgot_square.png using Guid(a58498b340528bb42ad8282f32798e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f01d880f16b2de85c4b648c9b69c3fe') in 0.104346 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.195415 seconds.
+  path: Assets/Urgot/icons2d/urgot_passive.png
+  artifactKey: Guid(69cc2c2a25aea764c9686dc55e3f110d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/icons2d/urgot_passive.png using Guid(69cc2c2a25aea764c9686dc55e3f110d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7c904f115bb4dc09ea9cbb42790a6b') in 0.030449 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Urgot/icons2d/urgot_rrecast.png
+  artifactKey: Guid(524d97d7c0961d945b71e34751fb84d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/icons2d/urgot_rrecast.png using Guid(524d97d7c0961d945b71e34751fb84d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e2889f4a4807269313e3a0863e307e') in 0.039186 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Urgot/icons2d/urgot_r.png
+  artifactKey: Guid(4f3c3af3d6dad134d8f08e4efdf63561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/icons2d/urgot_r.png using Guid(4f3c3af3d6dad134d8f08e4efdf63561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4f334c9760ad73c3d99dc295a75698') in 0.033742 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Urgot/icons2d/urgot_w.png
+  artifactKey: Guid(be613ce9e098c2440a92c5d3eea6d770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/icons2d/urgot_w.png using Guid(be613ce9e098c2440a92c5d3eea6d770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ee0c407ba837fa57613083c7a2d476') in 0.033463 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7551.603914 seconds.
+  path: Assets/Urgot/Model/Urgot_all_anim.fbx
+  artifactKey: Guid(e11e753927f347d4fa779e4fcabbcc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/Model/Urgot_all_anim.fbx using Guid(e11e753927f347d4fa779e4fcabbcc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23731068d72a6e86b2e4d5fabc16d754') in 0.459311 seconds 
+Number of asset objects unloaded after import = 291
+========================================================================
+Received Import Request.
+  Time since last request: 2327.848200 seconds.
+  path: Assets/Urgot/Materials/urgot_base.mat
+  artifactKey: Guid(92c1bbc835db97c4181ad139bf48df8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Urgot/Materials/urgot_base.mat using Guid(92c1bbc835db97c4181ad139bf48df8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6755a32a4678ce2aa83f657d28f41e23') in 0.109002 seconds 
+Number of asset objects unloaded after import = 2
